@@ -34,6 +34,7 @@ jobs:
           npm install
           npm run build
           cp appspec.yml ./build
+          cp -R cd-scripts/ ./build
           
       # Install AWS CLI 2
       - name: Install AWS CLI 2
