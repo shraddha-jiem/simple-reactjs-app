@@ -40,7 +40,7 @@ export default class CustomerDetails extends Component {
           <Panel.Title componentClass="h3">{this.state.customerDetails.data.name}</Panel.Title>
         </Panel.Heading>
         <Panel.Body>
-          <p>Name : {this.state.customerDetails.data.name}</p>
+          <p>Full Name : {this.state.customerDetails.data.name}</p>
           <p>Email : {this.state.customerDetails.data.email}</p>
           <p>Phone : {this.state.customerDetails.data.phone}</p>
           <p>City : {this.state.customerDetails.data.city}</p>
