@@ -2,7 +2,7 @@
   "name": "simple-reactjs-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://52.207.181.119",
+  "homepage": "http://3.83.212.54",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.4.1",
