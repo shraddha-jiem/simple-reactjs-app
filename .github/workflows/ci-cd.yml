@@ -1,13 +1,12 @@
 name: CI-CD
 
 on:
-  pull_request:
-    branches: [poc]
-    types: [closed]
+  push:
+    branches:
+      - poc
 
 jobs:
   build:
-    if: ${{github.event.pull_request.merged == true && github.ref_name == 'poc'}}
     name: CI Pipeline
     runs-on: ubuntu-latest
     environment: poc
